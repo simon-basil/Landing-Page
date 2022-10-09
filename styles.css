@@ -1,0 +1,175 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 41, 55);
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.listing{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+ 
+}
+.text,
+.placeholder{
+    width: 410px;
+    padding: 10px;
+}
+.placeholder{
+    height: 205px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+h1{
+    font-size: 48px;
+    margin: 0;
+    color: white;
+}
+.sign{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(56, 130, 246);
+    color: white;
+    font-size: 14px;
+}
+.footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 41, 55);
+}
+.container.one{
+    background-color: rgb(31, 41, 55);
+    border-color: rgb(31, 41, 55);
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: white;
+}
+.container.two{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 40px 0;
+}
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(31, 41, 55);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boxes{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px 20px;
+}
+.boxing{
+    width: 150px;
+    height: 130px;
+    border: 2px solid rgb(56, 130, 246);
+    border-radius: 10px;
+}
+p.info{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+}
+.container.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 231, 235);
+    padding: 40px 0;
+}
+.quote{
+    max-width: 490px;
+}
+.qoutation{
+    font-size: 18px;
+    color: rgb(31, 41, 55);
+    font-style: italic;
+}
+.Lord{
+    font-size: 18px;
+    color: rgb(31, 41, 55);
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+}
+.container.four{
+    background-color: rgb(255, 255, 255);
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 130, 246);
+    border: none;
+    border-radius: 6px;
+    padding: 40px 80px;
+    gap: 80px;
+}
+.onetext{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.onepara{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.signup{
+    background-color: rgb(56, 130, 246);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 2px 15px;
+}
